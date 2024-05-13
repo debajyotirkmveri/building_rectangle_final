@@ -4,7 +4,7 @@ git clone https://github.com/debajyotirkmveri/building_rectangle_final.git
 ~~~
 ## Go to the cloning folder
 ~~~
-cd building_rectangle_final
+cd building_rectangle_final_yolov8
 ~~~
 ## Go to the building_obb folder
 ~~~
