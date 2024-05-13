@@ -1,0 +1,1718 @@
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mtrain: [39m[22mNew cache created: /home/sysadm/Downloads/building_obb/train/labels.cache
+[34m[1mval: [39m[22mNew cache created: /home/sysadm/Downloads/building_obb/val/labels.cache
+[34m[1mtrain: [39m[22mScanning /home/sysadm/Downloads/building_obb/train/labels... 201 images,
+[34m[1mval: [39m[22mScanning /home/sysadm/Downloads/building_obb/val/labels... 50 images, 0 bac
+Plotting labels to runs/obb/train/labels.jpg...
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.00125, momentum=0.9) with parameter groups 63 weight(decay=0.0), 73 weight(decay=0.0005), 72 bias(decay=0.0)
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 512 train, 512 val
+Using 0 dataloader workers
+Logging results to [1mruns/obb/train
+Starting training for 100 epochs...
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+      1/100         0G      1.651      3.813      1.904        108        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+WARNING ⚠️ NMS time limit 2.800s exceeded
+WARNING ⚠️ NMS time limit 2.800s exceeded
+WARNING ⚠️ NMS time limit 2.800s exceeded
+WARNING ⚠️ NMS time limit 2.100s exceeded
+                   all         50        400     0.0181       0.17     0.0229     0.0142
+  0%|          | 0/13 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+      2/100         0G      1.322      2.848       1.51         54        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+WARNING ⚠️ NMS time limit 2.800s exceeded
+WARNING ⚠️ NMS time limit 2.800s exceeded
+WARNING ⚠️ NMS time limit 2.800s exceeded
+WARNING ⚠️ NMS time limit 2.100s exceeded
+                   all         50        400      0.351      0.125     0.0503     0.0305
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+      3/100         0G      1.271      2.244      1.452        101        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+WARNING ⚠️ NMS time limit 2.800s exceeded
+WARNING ⚠️ NMS time limit 2.800s exceeded
+WARNING ⚠️ NMS time limit 2.800s exceeded
+WARNING ⚠️ NMS time limit 2.100s exceeded
+                   all         50        400      0.364      0.157     0.0572     0.0372
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+      4/100         0G      1.212      1.984      1.452         97        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+WARNING ⚠️ NMS time limit 2.800s exceeded
+WARNING ⚠️ NMS time limit 2.800s exceeded
+WARNING ⚠️ NMS time limit 2.800s exceeded
+WARNING ⚠️ NMS time limit 2.100s exceeded
+                   all         50        400      0.404      0.239     0.0993     0.0699
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+      5/100         0G      1.173      1.902      1.442         94        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+WARNING ⚠️ NMS time limit 2.800s exceeded
+WARNING ⚠️ NMS time limit 2.800s exceeded
+WARNING ⚠️ NMS time limit 2.800s exceeded
+WARNING ⚠️ NMS time limit 2.100s exceeded
+                   all         50        400       0.19      0.212      0.113     0.0806
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+      6/100         0G      1.186      1.883      1.437         68        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+WARNING ⚠️ NMS time limit 2.800s exceeded
+WARNING ⚠️ NMS time limit 2.800s exceeded
+WARNING ⚠️ NMS time limit 2.800s exceeded
+WARNING ⚠️ NMS time limit 2.100s exceeded
+                   all         50        400      0.233      0.258      0.147      0.104
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+      7/100         0G      1.124      1.796      1.406         67        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+WARNING ⚠️ NMS time limit 2.800s exceeded
+WARNING ⚠️ NMS time limit 2.800s exceeded
+WARNING ⚠️ NMS time limit 2.800s exceeded
+WARNING ⚠️ NMS time limit 2.100s exceeded
+                   all         50        400      0.382      0.336       0.19      0.126
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+      8/100         0G       1.17      1.788      1.456         81        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+WARNING ⚠️ NMS time limit 2.800s exceeded
+WARNING ⚠️ NMS time limit 2.800s exceeded
+WARNING ⚠️ NMS time limit 2.800s exceeded
+WARNING ⚠️ NMS time limit 2.100s exceeded
+                   all         50        400      0.291      0.366      0.209       0.14
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+      9/100         0G      1.135      1.715      1.452        109        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+WARNING ⚠️ NMS time limit 2.800s exceeded
+                   all         50        400      0.289      0.327      0.223      0.146
+  0%|          | 0/13 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+     10/100         0G      1.145      1.704      1.457         97        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+WARNING ⚠️ NMS time limit 2.800s exceeded
+                   all         50        400      0.271        0.3      0.219      0.146
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+     11/100         0G      1.116      1.705      1.454        123        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+WARNING ⚠️ NMS time limit 2.800s exceeded
+                   all         50        400      0.209      0.395      0.216      0.152
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+     12/100         0G      1.096      1.664      1.447        113        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+WARNING ⚠️ NMS time limit 2.800s exceeded
+                   all         50        400      0.251      0.316      0.223      0.154
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+     13/100         0G      1.088      1.609      1.438         73        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+WARNING ⚠️ NMS time limit 2.800s exceeded
+                   all         50        400      0.272      0.318      0.255      0.184
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+     14/100         0G      1.131       1.61      1.476         84        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+WARNING ⚠️ NMS time limit 2.800s exceeded
+                   all         50        400      0.253      0.338      0.216      0.147
+  0%|          | 0/13 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+     15/100         0G      1.079      1.562      1.391        110        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+WARNING ⚠️ NMS time limit 2.800s exceeded
+                   all         50        400      0.395      0.365      0.271      0.192
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+     16/100         0G      1.082      1.598      1.459        113        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400       0.35      0.423      0.268      0.191
+  0%|          | 0/13 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+     17/100         0G      1.076      1.544      1.428        114        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+WARNING ⚠️ NMS time limit 2.800s exceeded
+                   all         50        400       0.29      0.337      0.258      0.177
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+     18/100         0G      1.095      1.549      1.413         90        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.308      0.324      0.268      0.184
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+     19/100         0G      1.072        1.5      1.471         96        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+WARNING ⚠️ NMS time limit 2.800s exceeded
+                   all         50        400      0.238      0.366      0.219      0.148
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+     20/100         0G      1.059      1.516      1.419        140        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.229      0.456       0.27      0.188
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+     21/100         0G       1.05      1.488      1.432        120        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.232      0.428      0.264      0.186
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+     22/100         0G      1.076      1.454      1.396        105        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.236      0.431      0.258      0.177
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+     23/100         0G      1.054       1.48      1.424         78        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400       0.26      0.456      0.253      0.169
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+     24/100         0G       1.04      1.457      1.365         90        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.256      0.441      0.251      0.167
+  0%|          | 0/13 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+     25/100         0G      1.038      1.413      1.384        119        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.259      0.452      0.273      0.187
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+     26/100         0G     0.9956      1.367      1.369        116        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.268      0.471      0.265      0.186
+  0%|          | 0/13 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+     27/100         0G     0.9938      1.364      1.368        105        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.239       0.46      0.236      0.164
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+     28/100         0G      1.018      1.391      1.363         86        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.225      0.394      0.224      0.156
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+     29/100         0G      1.011      1.367      1.377         93        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.254      0.419      0.244      0.172
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+     30/100         0G      1.046      1.357      1.382        112        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]
+                   all         50        400      0.264      0.407      0.264      0.183
+
+
+
+
+
+
+
+
+
+
+
+
+     31/100         0G      1.008      1.319      1.357        102        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400       0.26       0.44      0.276      0.191
+  0%|          | 0/13 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+     32/100         0G      1.011      1.366       1.35         86        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.238      0.444       0.25      0.175
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+     33/100         0G     0.9894      1.327       1.39         88        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.272      0.413      0.259      0.177
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+     34/100         0G     0.9788      1.269      1.333        100        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.252       0.43      0.242      0.164
+  0%|          | 0/13 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+     35/100         0G     0.9848      1.337      1.368         74        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.254      0.484      0.266      0.181
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+     36/100         0G      1.028       1.31      1.379        139        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.304      0.386      0.276      0.189
+  0%|          | 0/13 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+     37/100         0G     0.9656      1.265      1.341        106        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.277      0.412      0.268      0.186
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+     38/100         0G     0.9521      1.252      1.349        122        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.259      0.418      0.247      0.173
+  0%|          | 0/13 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+     39/100         0G     0.9814      1.248      1.358        111        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.247       0.45      0.252      0.177
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+     40/100         0G     0.9484      1.256      1.307        123        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.243       0.42      0.243      0.167
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+     41/100         0G     0.9854       1.23      1.392        102        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.271      0.425      0.257      0.176
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+     42/100         0G     0.9522       1.21      1.351         94        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.286      0.423      0.279      0.193
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+     43/100         0G     0.9474      1.189      1.313        149        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]
+                   all         50        400      0.234      0.413      0.246       0.17
+
+
+
+
+
+
+
+
+
+
+
+
+     44/100         0G     0.9499      1.209      1.349         62        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.242      0.436      0.258      0.175
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+     45/100         0G     0.9691        1.2      1.339         65        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]
+                   all         50        400      0.294      0.391      0.275      0.183
+
+
+
+
+
+
+
+
+
+
+
+
+     46/100         0G     0.9559      1.182      1.338        105        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.238      0.396      0.226      0.155
+  0%|          | 0/13 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+     47/100         0G     0.9587      1.186      1.336        133        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.222      0.441      0.227      0.156
+  0%|          | 0/13 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+     48/100         0G      0.941      1.189      1.319        112        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]
+                   all         50        400      0.232      0.426      0.236       0.16
+
+
+
+
+
+
+
+
+
+
+
+     49/100         0G     0.9612      1.149       1.35         94        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.256      0.392      0.234      0.161
+  0%|          | 0/13 [00:00<?, ?it/s]
+     50/100         0G     0.9853      1.182      1.413        203        512:
+     50/100         0G      0.951      1.157      1.339        186        512:
+     50/100         0G     0.9512      1.106      1.329        188        512:
+     50/100         0G     0.9601      1.137      1.349        157        512:
+     50/100         0G      0.949       1.11       1.33        261        512:
+     50/100         0G     0.9464      1.107      1.321        197        512:
+     50/100         0G       0.95      1.116      1.324        188        512:
+     50/100         0G     0.9535      1.126      1.344        155        512:
+     50/100         0G     0.9572      1.139      1.336        194        512:
+     50/100         0G     0.9631      1.163      1.342        108        512:
+     50/100         0G     0.9572      1.165      1.343        149        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     51/100         0G     0.9397      1.094      1.376        167        512:
+     51/100         0G     0.9332      1.093      1.341        161        512:
+     51/100         0G     0.9387      1.101      1.326        164        512:
+     51/100         0G     0.9576      1.117       1.32        222        512:
+     51/100         0G     0.9446      1.101      1.309        133        512:
+     51/100         0G     0.9417      1.088       1.31        174        512:
+     51/100         0G     0.9382      1.082        1.3        189        512:
+     51/100         0G     0.9431      1.101      1.297        197        512:
+     51/100         0G      0.943      1.107      1.293        140        512:
+     51/100         0G     0.9419      1.094      1.293        199        512:
+     51/100         0G     0.9363      1.092      1.289        196        512:
+     51/100         0G     0.9398      1.099      1.299        158        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.293      0.381      0.262      0.179
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     52/100         0G     0.8901      1.281      1.279        232        512:
+     52/100         0G     0.8977      1.229      1.284        213        512:
+     52/100         0G     0.8991      1.208      1.254        141        512:
+     52/100         0G     0.9157      1.179      1.289        154        512:
+     52/100         0G     0.9307      1.169      1.309        208        512:
+     52/100         0G     0.9258      1.164      1.302        177        512:
+     52/100         0G     0.9332      1.152      1.304        174        512:
+     52/100         0G     0.9315      1.158      1.307        183        512:
+     52/100         0G     0.9323      1.162      1.313        125        512:
+     52/100         0G      0.934      1.153      1.307        214        512:
+     52/100         0G     0.9357      1.156      1.308        177        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     53/100         0G     0.9228      1.057      1.231        169        512:
+     53/100         0G      0.933      1.078      1.251        172        512:
+     53/100         0G     0.9343      1.077      1.254        225        512:
+     53/100         0G     0.9159      1.072      1.264        191        512:
+     53/100         0G     0.9207      1.094      1.305         96        512:
+     53/100         0G     0.9228      1.098      1.298        238        512:
+     53/100         0G     0.9281      1.104      1.301        149        512:
+     53/100         0G     0.9319      1.097      1.309        152        512:
+     53/100         0G     0.9348      1.092      1.313        197        512:
+     53/100         0G     0.9293      1.096      1.314        166        512:
+     53/100         0G     0.9281      1.102      1.314        155        512:
+     53/100         0G      0.927      1.099      1.308        196        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.248      0.464      0.251      0.178
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     54/100         0G     0.9512      1.084      1.378        165        512:
+     54/100         0G     0.9822      1.166      1.476        171        512:
+     54/100         0G     0.9922       1.18      1.449        159        512:
+     54/100         0G     0.9667      1.133      1.417        121        512:
+     54/100         0G     0.9477      1.127      1.379        165        512:
+     54/100         0G     0.9464      1.127      1.366        226        512:
+     54/100         0G     0.9459      1.125      1.363        203        512:
+     54/100         0G     0.9447      1.125      1.354        161        512:
+     54/100         0G     0.9332      1.124      1.353        138        512:
+     54/100         0G     0.9273      1.118      1.348        226        512:
+     54/100         0G     0.9266      1.115      1.339        230        512:
+     54/100         0G     0.9201      1.105      1.329        191        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400       0.24      0.434      0.242      0.169
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     55/100         0G      0.913      1.157      1.359        202        512:
+     55/100         0G     0.9135      1.076      1.292        205        512:
+     55/100         0G     0.9162      1.104      1.308        130        512:
+     55/100         0G     0.9196      1.086      1.313        168        512:
+     55/100         0G     0.9285      1.112      1.308        165        512:
+     55/100         0G     0.9377      1.131      1.302        214        512:
+     55/100         0G     0.9346      1.129      1.295        184        512:
+     55/100         0G     0.9337      1.115       1.29        207        512:
+     55/100         0G     0.9324      1.108      1.298        178        512:
+     55/100         0G     0.9281      1.115      1.309        177        512:
+     55/100         0G     0.9305      1.113      1.314        171        512:
+     55/100         0G     0.9332      1.105      1.322        148        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.283      0.365      0.259      0.175
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     56/100         0G     0.9563      1.042       1.43        139        512:
+     56/100         0G     0.9369      1.036      1.416        200        512:
+     56/100         0G     0.9349      1.053      1.409        219        512:
+     56/100         0G     0.9375      1.094      1.403        112        512:
+     56/100         0G     0.9441      1.085      1.375        231        512:
+     56/100         0G     0.9485       1.07      1.363        205        512:
+     56/100         0G     0.9442       1.07      1.365        153        512:
+     56/100         0G     0.9423      1.073      1.371        155        512:
+     56/100         0G     0.9426      1.079      1.359        215        512:
+     56/100         0G     0.9468      1.102       1.35        116        512:
+     56/100         0G     0.9412       1.11      1.342        169        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     57/100         0G     0.9466      1.166      1.314        152        512:
+     57/100         0G     0.9355      1.087      1.278        187        512:
+     57/100         0G     0.9405      1.051      1.285        181        512:
+     57/100         0G     0.9294      1.063      1.272        250        512:
+     57/100         0G     0.9208      1.055      1.266        162        512:
+     57/100         0G     0.9152      1.059      1.262        194        512:
+     57/100         0G     0.9155      1.063      1.261        226        512:
+     57/100         0G     0.9119      1.067      1.269        148        512:
+     57/100         0G     0.9114      1.076      1.283        191        512:
+     57/100         0G     0.9102      1.079      1.292        201        512:
+     57/100         0G     0.9123      1.072      1.292        162        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     58/100         0G     0.9782        1.3      1.388        145        512:
+     58/100         0G     0.9482      1.163      1.318        197        512:
+     58/100         0G     0.9633      1.155      1.325        164        512:
+     58/100         0G     0.9503      1.137      1.318        155        512:
+     58/100         0G     0.9416      1.131      1.314        141        512:
+     58/100         0G     0.9275      1.107      1.299        202        512:
+     58/100         0G     0.9182      1.107      1.301        174        512:
+     58/100         0G     0.9239      1.111      1.309        144        512:
+     58/100         0G      0.927      1.095      1.301        217        512:
+     58/100         0G     0.9248      1.087      1.305        218        512:
+     58/100         0G     0.9246      1.075      1.301        196        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     59/100         0G     0.9113      1.144      1.287        172        512:
+     59/100         0G     0.9027      1.057      1.262        140        512:
+     59/100         0G     0.9084      1.074      1.284        181        512:
+     59/100         0G     0.9112      1.071      1.312        151        512:
+     59/100         0G     0.9188      1.066      1.305        232        512:
+     59/100         0G     0.9091      1.054      1.309        127        512:
+     59/100         0G     0.9173      1.055      1.302        197        512:
+     59/100         0G     0.9074      1.055      1.301        134        512:
+     59/100         0G     0.9072      1.049      1.297        159        512:
+     59/100         0G     0.9108      1.052      1.301        166        512:
+     59/100         0G     0.9162      1.068      1.302        172        512:
+     59/100         0G     0.9216      1.068      1.301        178        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+                   all         50        400      0.274       0.37      0.271      0.185
+     60/100         0G     0.8903     0.9805      1.256        218        512:
+     60/100         0G     0.9375      1.012        1.3        151        512:
+     60/100         0G     0.9338       1.01      1.332        159        512:
+     60/100         0G     0.9182      1.019      1.319        167        512:
+     60/100         0G     0.9247      1.015      1.318        151        512:
+     60/100         0G     0.9243      1.028      1.323        130        512:
+     60/100         0G     0.9208       1.03       1.32        220        512:
+     60/100         0G     0.9169      1.027      1.319        190        512:
+     60/100         0G     0.9166      1.024       1.31        149        512:
+     60/100         0G     0.9194      1.029      1.308        195        512:
+     60/100         0G     0.9133      1.036      1.312        263        512:
+     60/100         0G     0.9087      1.033      1.311        192        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.217      0.458      0.236       0.16
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     61/100         0G      1.029      1.069      1.275        214        512:
+     61/100         0G     0.9692      1.047      1.287        121        512:
+     61/100         0G     0.9246      1.031      1.263        185        512:
+     61/100         0G     0.9081       1.03       1.27        168        512:
+     61/100         0G     0.8927      1.016      1.269        156        512:
+     61/100         0G      0.897      1.017      1.293        180        512:
+     61/100         0G     0.8997      1.028      1.304        176        512:
+     61/100         0G     0.9061      1.026      1.315        130        512:
+     61/100         0G     0.9052       1.03      1.311        182        512:
+     61/100         0G     0.9055      1.023      1.311        141        512:
+     61/100         0G     0.9012      1.016      1.307        184        512:
+     61/100         0G     0.9067      1.019      1.311        198        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400       0.24      0.432      0.258      0.177
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     62/100         0G     0.8289     0.9841      1.184        134        512:
+     62/100         0G     0.8753     0.9959      1.179        187        512:
+     62/100         0G     0.8785     0.9668       1.19        199        512:
+     62/100         0G     0.9004     0.9682      1.225        150        512:
+     62/100         0G     0.9172      1.024      1.241        159        512:
+     62/100         0G      0.917      1.021      1.246        174        512:
+     62/100         0G     0.9043      1.025      1.254        124        512:
+     62/100         0G     0.9136      1.027      1.268        182        512:
+     62/100         0G     0.9055       1.02      1.271        210        512:
+     62/100         0G     0.9087      1.024      1.272        215        512:
+     62/100         0G     0.9074      1.025      1.273        134        512:
+     62/100         0G     0.9155      1.028      1.286        189        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.235      0.438       0.26      0.184
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     63/100         0G     0.9222      1.054      1.363        144        512:
+     63/100         0G     0.9321      1.045      1.408        168        512:
+     63/100         0G     0.9402      1.042      1.384        207        512:
+     63/100         0G     0.9125      1.034      1.376        181        512:
+     63/100         0G     0.9093       1.02      1.368        163        512:
+     63/100         0G     0.9243      1.023       1.37        151        512:
+     63/100         0G     0.9155      1.014      1.347        185        512:
+     63/100         0G     0.9155      1.016      1.347        202        512:
+     63/100         0G     0.9101      1.001      1.333        197        512:
+     63/100         0G     0.9077     0.9987      1.326        177        512:
+     63/100         0G     0.9087     0.9976      1.325        208        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.232      0.467      0.252      0.176
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     64/100         0G     0.9392      1.129      1.474        116        512:
+     64/100         0G     0.9348      1.067       1.39        244        512:
+     64/100         0G     0.9511      1.135      1.426        103        512:
+     64/100         0G     0.9446      1.116      1.398        143        512:
+     64/100         0G     0.9368      1.091      1.358        225        512:
+     64/100         0G     0.9363      1.071      1.343        172        512:
+     64/100         0G     0.9314      1.061      1.328        147        512:
+     64/100         0G     0.9287      1.055       1.32        160        512:
+     64/100         0G     0.9246      1.074      1.321        123        512:
+     64/100         0G     0.9248      1.069      1.326        160        512:
+     64/100         0G     0.9244      1.063      1.318        198        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     65/100         0G     0.8823      1.043      1.376        160        512:
+     65/100         0G     0.9089      1.059      1.376        136        512:
+     65/100         0G     0.8846      1.016      1.328        156        512:
+     65/100         0G     0.8942       1.04      1.307        245        512:
+     65/100         0G     0.8951      1.024      1.292        184        512:
+     65/100         0G     0.8986       1.01      1.307        167        512:
+     65/100         0G     0.9001      1.006      1.299        234        512:
+     65/100         0G     0.8949     0.9963      1.296        202        512:
+     65/100         0G     0.8886     0.9813      1.297        125        512:
+     65/100         0G      0.887     0.9864      1.287        164        512:
+     65/100         0G     0.8841     0.9881      1.291        211        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     66/100         0G     0.8586     0.9729      1.277        215        512:
+     66/100         0G     0.8927     0.9657      1.242        192        512:
+     66/100         0G     0.8972     0.9636      1.253        194        512:
+     66/100         0G      0.904     0.9691      1.266        175        512:
+     66/100         0G     0.9139     0.9979      1.276        146        512:
+     66/100         0G     0.9192      1.006      1.297        146        512:
+     66/100         0G     0.9094      1.008      1.288        187        512:
+     66/100         0G     0.9105     0.9971        1.3        180        512:
+     66/100         0G     0.9079      0.999      1.299        186        512:
+     66/100         0G     0.9099     0.9896      1.295        183        512:
+     66/100         0G     0.9095     0.9953      1.304        247        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+                   all         50        400      0.303      0.336      0.237      0.165
+     67/100         0G      0.896     0.9207      1.232        165        512:
+     67/100         0G     0.8679     0.9415      1.245        180        512:
+     67/100         0G     0.8881     0.9938      1.264        168        512:
+     67/100         0G     0.8953      1.011      1.277        146        512:
+     67/100         0G     0.9006      1.005      1.285        184        512:
+     67/100         0G     0.9099     0.9966      1.285        206        512:
+     67/100         0G     0.9132      1.005      1.287        209        512:
+     67/100         0G     0.9153      1.008      1.305        169        512:
+     67/100         0G     0.9144     0.9994      1.301        180        512:
+     67/100         0G     0.9134      1.004      1.302        182        512:
+     67/100         0G     0.9173     0.9965      1.307        133        512:
+     67/100         0G     0.9134     0.9849      1.311        184        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+                   all         50        400       0.28      0.354       0.24       0.17
+     68/100         0G     0.9053      1.017      1.326        126        512:
+     68/100         0G     0.9065     0.9591      1.308        196        512:
+     68/100         0G     0.9016     0.9608      1.291        158        512:
+     68/100         0G      0.913     0.9902      1.294        106        512:
+     68/100         0G     0.9163      1.009      1.295        224        512:
+     68/100         0G     0.8953      1.001      1.286        126        512:
+     68/100         0G     0.8909     0.9963      1.278        217        512:
+     68/100         0G     0.8918          1      1.273        237        512:
+     68/100         0G      0.885      0.997      1.269        133        512:
+     68/100         0G     0.8869     0.9964      1.277        177        512:
+     68/100         0G     0.8875     0.9892      1.277        192        512:
+     68/100         0G     0.8871     0.9877      1.275        158        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+                   all         50        400      0.249      0.419      0.262      0.186
+     69/100         0G     0.8939     0.9379      1.269        152        512:
+     69/100         0G     0.8979     0.9248      1.241        157        512:
+     69/100         0G     0.9118     0.9645      1.274        205        512:
+     69/100         0G     0.8991     0.9612      1.276        170        512:
+     69/100         0G     0.9043     0.9515      1.278        183        512:
+     69/100         0G     0.8967     0.9239      1.289        145        512:
+     69/100         0G     0.8995     0.9317      1.305        131        512:
+     69/100         0G     0.8964     0.9371      1.297        151        512:
+     69/100         0G     0.8929     0.9279      1.292        168        512:
+     69/100         0G     0.8896     0.9289      1.292        215        512:
+     69/100         0G      0.892     0.9248      1.301        132        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     70/100         0G     0.9028      1.027      1.275        210        512:
+     70/100         0G     0.9332      1.091      1.364        132        512:
+     70/100         0G     0.9283      1.019       1.35        135        512:
+     70/100         0G     0.9255      1.001      1.333        168        512:
+     70/100         0G     0.9277     0.9886      1.333        156        512:
+     70/100         0G     0.9164     0.9926      1.329        125        512:
+     70/100         0G     0.9175     0.9931      1.326        170        512:
+     70/100         0G     0.9216     0.9905      1.314        176        512:
+     70/100         0G     0.9252     0.9906      1.307        226        512:
+     70/100         0G     0.9302      1.002      1.304        247        512:
+     70/100         0G     0.9244     0.9914      1.301        197        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     71/100         0G     0.8807     0.8477      1.294        193        512:
+     71/100         0G     0.8624     0.8956      1.252        191        512:
+     71/100         0G     0.8876     0.9186      1.275        159        512:
+     71/100         0G     0.9186     0.9598      1.285        209        512:
+     71/100         0G     0.9171     0.9486      1.275        196        512:
+     71/100         0G     0.9121     0.9378      1.274        182        512:
+     71/100         0G     0.9056     0.9331      1.283        156        512:
+     71/100         0G     0.8987     0.9391      1.278        161        512:
+     71/100         0G     0.8958     0.9352      1.274        149        512:
+     71/100         0G     0.8964     0.9379      1.277        153        512:
+     71/100         0G     0.8906      0.933      1.274        236        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.263      0.432      0.244      0.165
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     72/100         0G     0.8723     0.8926      1.252        173        512:
+     72/100         0G     0.8752     0.9201      1.205        199        512:
+     72/100         0G     0.8873     0.9539      1.277        148        512:
+     72/100         0G     0.8823     0.9516      1.267        172        512:
+     72/100         0G      0.891      0.952      1.271        191        512:
+     72/100         0G     0.8939     0.9458      1.289        136        512:
+     72/100         0G     0.8981     0.9449      1.292        191        512:
+     72/100         0G     0.8913     0.9319      1.281        172        512:
+     72/100         0G     0.8992     0.9395      1.291        144        512:
+     72/100         0G     0.8953     0.9352      1.291        181        512:
+     72/100         0G     0.8932     0.9349      1.284        162        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.268      0.449      0.247      0.171
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     73/100         0G     0.8583     0.8767       1.21        181        512:
+     73/100         0G     0.9407      0.971      1.274        135        512:
+     73/100         0G     0.9183     0.9376      1.267        170        512:
+     73/100         0G     0.9081     0.9424      1.273        167        512:
+     73/100         0G     0.8881     0.9283      1.258        131        512:
+     73/100         0G     0.8891     0.9432      1.257        191        512:
+     73/100         0G     0.8924     0.9671      1.264        206        512:
+     73/100         0G     0.8883     0.9607      1.265        188        512:
+     73/100         0G     0.8905      0.952      1.271        175        512:
+     73/100         0G      0.894     0.9453      1.277        159        512:
+     73/100         0G     0.8915     0.9406      1.287        166        512:
+     73/100         0G       0.89      0.935      1.279        174        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+                   all         50        400      0.262      0.408      0.242      0.169
+     74/100         0G     0.8377     0.9132      1.394        227        512:
+     74/100         0G     0.8716     0.9866      1.414        147        512:
+     74/100         0G     0.8843     0.9846      1.351        236        512:
+     74/100         0G     0.8821      0.973      1.312        279        512:
+     74/100         0G     0.8741     0.9554      1.305        188        512:
+     74/100         0G     0.8776     0.9661      1.312        129        512:
+     74/100         0G     0.8827     0.9571      1.316        156        512:
+     74/100         0G     0.8843     0.9443      1.315        145        512:
+     74/100         0G     0.8896     0.9454      1.309        194        512:
+     74/100         0G     0.8837     0.9331      1.301        158        512:
+     74/100         0G     0.8901      0.933      1.297        261        512:
+     74/100         0G     0.8947     0.9333      1.295        170        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+                   all         50        400      0.254      0.459      0.244      0.169
+     75/100         0G     0.9139     0.9634      1.308        185        512:
+     75/100         0G     0.8724     0.9177       1.34        139        512:
+     75/100         0G     0.9143     0.9847      1.353        132        512:
+     75/100         0G     0.8946     0.9502      1.328        172        512:
+     75/100         0G     0.8973     0.9566      1.325        162        512:
+     75/100         0G     0.8922     0.9379      1.331        177        512:
+     75/100         0G     0.8924     0.9435      1.326        188        512:
+     75/100         0G     0.8899     0.9388      1.328        134        512:
+     75/100         0G     0.8874      0.938      1.317        181        512:
+     75/100         0G     0.8888     0.9294       1.31        191        512:
+     75/100         0G     0.8947     0.9435      1.324        126        512:
+     75/100         0G     0.8966     0.9473      1.322        240        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+                   all         50        400      0.268      0.407      0.251      0.175
+     76/100         0G     0.8965     0.8692      1.353        156        512:
+     76/100         0G     0.9206       1.02      1.374        147        512:
+     76/100         0G     0.8946     0.9518      1.318        201        512:
+     76/100         0G     0.8751     0.9503       1.29        172        512:
+     76/100         0G     0.8717     0.9404      1.277        163        512:
+     76/100         0G     0.8604     0.9251      1.292        140        512:
+     76/100         0G     0.8654     0.9149      1.294        167        512:
+     76/100         0G     0.8735     0.9191      1.302        139        512:
+     76/100         0G     0.8699     0.9095      1.297        168        512:
+     76/100         0G     0.8689     0.9039      1.297        202        512:
+     76/100         0G     0.8674     0.9025       1.29        185        512:
+     76/100         0G      0.866     0.9109      1.299        136        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+                   all         50        400      0.256      0.377      0.235      0.163
+     77/100         0G     0.8796     0.9137      1.358        124        512:
+     77/100         0G     0.8439     0.9162      1.304        235        512:
+     77/100         0G     0.8491      0.897      1.289        188        512:
+     77/100         0G     0.8696     0.9259      1.288        117        512:
+     77/100         0G      0.863     0.9128       1.28        159        512:
+     77/100         0G      0.858     0.9101      1.283        173        512:
+     77/100         0G     0.8649     0.9126      1.287        160        512:
+     77/100         0G     0.8602     0.9035      1.281        188        512:
+     77/100         0G     0.8599     0.9102      1.285        164        512:
+     77/100         0G      0.863     0.9115      1.287        163        512:
+     77/100         0G     0.8718     0.9227      1.295        160        512:
+     77/100         0G     0.8739     0.9187      1.292        181        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+                   all         50        400      0.262      0.365      0.241      0.167
+     78/100         0G     0.8636     0.9925      1.196        179        512:
+     78/100         0G     0.8959     0.9796      1.229        207        512:
+     78/100         0G     0.8618     0.9336      1.215        126        512:
+     78/100         0G     0.8664     0.9244      1.218        223        512:
+     78/100         0G     0.8587     0.9227      1.221        185        512:
+     78/100         0G     0.8819     0.9301      1.226        184        512:
+     78/100         0G      0.885     0.9366      1.247        128        512:
+     78/100         0G     0.8901      0.946       1.24        210        512:
+     78/100         0G     0.8826     0.9312      1.241        158        512:
+     78/100         0G     0.8826     0.9304       1.24        176        512:
+     78/100         0G      0.878     0.9258      1.245        122        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     79/100         0G     0.9106     0.8754        1.3        174        512:
+     79/100         0G     0.8796     0.9055      1.314        185        512:
+     79/100         0G     0.8784     0.8794      1.309        156        512:
+     79/100         0G     0.8721     0.8671      1.288        194        512:
+     79/100         0G     0.8722      0.864      1.282        159        512:
+     79/100         0G     0.8729     0.8715      1.294        147        512:
+     79/100         0G     0.8663     0.8709      1.287        137        512:
+     79/100         0G     0.8655     0.8616      1.281        174        512:
+     79/100         0G     0.8664     0.8667      1.285        149        512:
+     79/100         0G     0.8714     0.8676       1.28        187        512:
+     79/100         0G     0.8679     0.8709      1.278        205        512:
+     79/100         0G     0.8664       0.87      1.272        265        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+                   all         50        400      0.252      0.425      0.233      0.162
+     80/100         0G      1.002      0.989      1.409        147        512:
+     80/100         0G      0.947     0.9292      1.318        217        512:
+     80/100         0G     0.9322     0.9215      1.307        178        512:
+     80/100         0G     0.9083     0.8977      1.274        182        512:
+     80/100         0G     0.9056      0.896      1.273        168        512:
+     80/100         0G      0.897     0.8952      1.266        171        512:
+     80/100         0G     0.8927     0.9127      1.268        196        512:
+     80/100         0G      0.889     0.9179       1.26        146        512:
+     80/100         0G     0.8747     0.9165      1.266        276        512:
+     80/100         0G     0.8781      0.922      1.262        169        512:
+     80/100         0G     0.8733     0.9142       1.26        154        512:
+     80/100         0G      0.874     0.9361      1.263        124        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+                   all         50        400       0.25       0.41      0.229      0.159
+     81/100         0G     0.9195     0.9761      1.266        191        512:
+     81/100         0G     0.8817     0.9454      1.222        194        512:
+     81/100         0G     0.8767     0.9254      1.227        157        512:
+     81/100         0G     0.8793     0.9278      1.248        132        512:
+     81/100         0G     0.8637     0.9185      1.249        173        512:
+     81/100         0G     0.8718     0.9169      1.265        201        512:
+     81/100         0G      0.857      0.912      1.285        190        512:
+     81/100         0G     0.8694     0.9137      1.301        142        512:
+     81/100         0G     0.8729     0.9234      1.303        159        512:
+     81/100         0G     0.8678     0.9109      1.294        151        512:
+     81/100         0G     0.8631     0.9063      1.286        204        512:
+     81/100         0G     0.8616     0.9021      1.283        165        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.267       0.41      0.242      0.168
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     82/100         0G     0.8126     0.8661      1.236        191        512:
+     82/100         0G     0.8564      0.886      1.256        162        512:
+     82/100         0G     0.8619     0.8932      1.283        108        512:
+     82/100         0G     0.8485     0.8885      1.272        136        512:
+     82/100         0G     0.8551     0.9158       1.27        161        512:
+     82/100         0G     0.8533     0.9182      1.262        188        512:
+     82/100         0G     0.8517     0.9011      1.258        176        512:
+     82/100         0G     0.8531     0.8942       1.25        208        512:
+     82/100         0G     0.8598     0.8959      1.251        169        512:
+     82/100         0G     0.8581     0.8869       1.25        155        512:
+     82/100         0G     0.8564     0.8804      1.252        196        512:
+     82/100         0G     0.8547     0.8789      1.248        178        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.274      0.406      0.251      0.171
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     83/100         0G     0.8287     0.8333      1.268        161        512:
+     83/100         0G     0.8564     0.8564      1.219        242        512:
+     83/100         0G     0.8625      0.849      1.207        253        512:
+     83/100         0G     0.8442     0.8459      1.206        165        512:
+     83/100         0G     0.8447     0.8595      1.211        259        512:
+     83/100         0G      0.842     0.8543      1.204        217        512:
+     83/100         0G     0.8386     0.8594      1.213        196        512:
+     83/100         0G     0.8332      0.857      1.217        184        512:
+     83/100         0G     0.8359     0.8539      1.222        148        512:
+     83/100         0G     0.8327     0.8599      1.239        211        512:
+     83/100         0G     0.8317     0.8572      1.238        177        512:
+     83/100         0G      0.836     0.8566      1.239        196        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.297      0.382       0.25      0.168
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     84/100         0G     0.8975     0.9002      1.307        174        512:
+     84/100         0G     0.8933     0.8883      1.292        203        512:
+     84/100         0G     0.8833     0.8617      1.266        187        512:
+     84/100         0G     0.8784     0.8494      1.249        218        512:
+     84/100         0G     0.8763     0.8399      1.255        144        512:
+     84/100         0G     0.8731     0.8448      1.261        154        512:
+     84/100         0G     0.8702     0.8521      1.282        147        512:
+     84/100         0G     0.8666     0.8526      1.279        145        512:
+     84/100         0G     0.8622     0.8504      1.278        205        512:
+     84/100         0G     0.8626     0.8465      1.288        160        512:
+     84/100         0G     0.8639     0.8503      1.279        233        512:
+     84/100         0G     0.8666     0.8585      1.276        160        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.285      0.404      0.253      0.175
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     85/100         0G     0.8225     0.8585       1.27        198        512:
+     85/100         0G     0.7979     0.8012      1.271        201        512:
+     85/100         0G     0.8384     0.8332      1.286        142        512:
+     85/100         0G     0.8297     0.8087      1.272        152        512:
+     85/100         0G     0.8354     0.8136      1.266        210        512:
+     85/100         0G     0.8444     0.8459      1.261        161        512:
+     85/100         0G     0.8487     0.8464      1.255        123        512:
+     85/100         0G     0.8441     0.8435      1.263        135        512:
+     85/100         0G     0.8439     0.8417      1.261        150        512:
+     85/100         0G     0.8521      0.849      1.263        206        512:
+     85/100         0G     0.8525     0.8447      1.257        198        512:
+     85/100         0G      0.854     0.8541      1.252        196        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.277      0.429      0.254      0.176
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     86/100         0G     0.8126     0.8569      1.159        187        512:
+     86/100         0G     0.8214     0.8325       1.24        195        512:
+     86/100         0G     0.8318     0.8429      1.233        206        512:
+     86/100         0G     0.8438     0.8603      1.232        203        512:
+     86/100         0G     0.8511     0.8668      1.246        108        512:
+     86/100         0G     0.8441     0.8498      1.247        168        512:
+     86/100         0G      0.844     0.8635      1.252        192        512:
+     86/100         0G     0.8512     0.8848      1.253        143        512:
+     86/100         0G     0.8576     0.8852      1.252        155        512:
+     86/100         0G     0.8543     0.8749      1.254        174        512:
+     86/100         0G     0.8546     0.8765      1.263        110        512:
+     86/100         0G     0.8588     0.8821      1.264        208        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.276      0.421      0.256      0.175
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     87/100         0G     0.9312     0.9408      1.364        157        512:
+     87/100         0G     0.9157     0.9232      1.264        226        512:
+     87/100         0G     0.8993     0.9172      1.279        138        512:
+     87/100         0G      0.886     0.8885      1.266        191        512:
+     87/100         0G     0.8851     0.8756      1.267        170        512:
+     87/100         0G     0.8937     0.8667      1.271        238        512:
+     87/100         0G     0.8838     0.8679      1.261        195        512:
+     87/100         0G     0.8872     0.8627      1.261        188        512:
+     87/100         0G     0.8847     0.8607      1.255        247        512:
+     87/100         0G     0.8828     0.8623      1.248        184        512:
+     87/100         0G     0.8813     0.8636      1.249        167        512:
+     87/100         0G     0.8791     0.8702      1.259        180        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.282       0.45       0.26       0.18
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     88/100         0G     0.8372     0.7986      1.152        193        512:
+     88/100         0G     0.8396     0.8435      1.188        198        512:
+     88/100         0G      0.831     0.8314      1.196        198        512:
+     88/100         0G     0.8439     0.8683      1.245        206        512:
+     88/100         0G     0.8395      0.872      1.244        199        512:
+     88/100         0G      0.843     0.8573      1.244        189        512:
+     88/100         0G     0.8393     0.8547      1.243        179        512:
+     88/100         0G     0.8419     0.8465       1.25        127        512:
+     88/100         0G     0.8409     0.8414      1.246        165        512:
+     88/100         0G     0.8422     0.8448      1.245        220        512:
+     88/100         0G     0.8384      0.837      1.238        167        512:
+     88/100         0G     0.8471     0.8414      1.245         70        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.287      0.449      0.254      0.174
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     89/100         0G     0.8242     0.8268      1.252        128        512:
+     89/100         0G      0.819      0.823      1.264        213        512:
+     89/100         0G     0.8362     0.8374      1.236        253        512:
+     89/100         0G      0.842     0.8565      1.252        170        512:
+     89/100         0G     0.8372     0.8646      1.242        147        512:
+     89/100         0G     0.8394     0.8592      1.258        145        512:
+     89/100         0G     0.8408     0.8696       1.26        166        512:
+     89/100         0G     0.8474     0.8747      1.264        214        512:
+     89/100         0G     0.8452     0.8719      1.259        212        512:
+     89/100         0G     0.8465     0.8662      1.256        182        512:
+     89/100         0G     0.8403     0.8544      1.248        152        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.286      0.454      0.257      0.177
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     90/100         0G     0.8098     0.8191      1.226        170        512:
+     90/100         0G     0.8144     0.8064       1.27        194        512:
+     90/100         0G     0.8317     0.8187      1.248        212        512:
+     90/100         0G     0.8395     0.8375      1.258        168        512:
+     90/100         0G     0.8497     0.8408      1.265        136        512:
+     90/100         0G     0.8376     0.8428      1.257        177        512:
+     90/100         0G     0.8362       0.84      1.263        163        512:
+     90/100         0G     0.8376     0.8431      1.278        119        512:
+     90/100         0G     0.8363     0.8338      1.275        142        512:
+     90/100         0G     0.8376     0.8297      1.266        142        512:
+     90/100         0G     0.8433     0.8371      1.269        159        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.293      0.433      0.259       0.18
+                 Class     Images  Instances      Box(P          R      mAP50  m
+Closing dataloader mosaic
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     91/100         0G      0.753     0.7385       1.37        146        512:
+     91/100         0G     0.7829     0.8227      1.318        110        512:
+     91/100         0G     0.7621      0.776      1.288        119        512:
+     91/100         0G     0.7671     0.7754      1.275        122        512:
+     91/100         0G     0.7826     0.8056      1.292         94        512:
+     91/100         0G      0.787     0.8074      1.281        125        512:
+     91/100         0G     0.7921     0.7951      1.279        114        512:
+     91/100         0G      0.803     0.8105       1.28        132        512:
+     91/100         0G      0.803     0.8095      1.279        101        512:
+     91/100         0G     0.7999     0.8048      1.275        106        512:
+     91/100         0G     0.8041      0.819      1.272        102        512:
+     91/100         0G     0.8029     0.8212      1.272         75        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.296      0.449      0.273       0.19
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     92/100         0G     0.8195     0.9003      1.088        124        512:
+     92/100         0G     0.8139     0.8123      1.151        129        512:
+     92/100         0G     0.8038     0.7985      1.157        114        512:
+     92/100         0G     0.8007     0.7829      1.167        146        512:
+     92/100         0G     0.8068     0.7934      1.201        102        512:
+     92/100         0G     0.7928     0.7775      1.185        105        512:
+     92/100         0G     0.7891     0.7921      1.209        134        512:
+     92/100         0G     0.7894      0.794      1.203         94        512:
+     92/100         0G     0.7864     0.7998        1.2         65        512:
+     92/100         0G     0.7963     0.7945      1.202        131        512:
+     92/100         0G     0.7959      0.784      1.201         91        512:
+     92/100         0G     0.7906      0.775      1.199        109        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.297       0.44      0.266      0.186
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     93/100         0G     0.7759      0.786      1.245        156        512:
+     93/100         0G      0.811      0.742       1.27        123        512:
+     93/100         0G     0.8031     0.7346      1.244        134        512:
+     93/100         0G     0.8011     0.7274      1.224        116        512:
+     93/100         0G     0.7817     0.7255      1.215        114        512:
+     93/100         0G     0.7794      0.718      1.202         99        512:
+     93/100         0G     0.7826      0.727      1.202        168        512:
+     93/100         0G     0.7791     0.7281      1.219        143        512:
+     93/100         0G     0.7757     0.7416      1.215         84        512:
+     93/100         0G     0.7817     0.7386      1.213        117        512:
+     93/100         0G     0.7852     0.7416      1.212         74        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.297      0.399      0.251      0.176
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     94/100         0G     0.7604     0.7258      1.246        157        512:
+     94/100         0G     0.7603     0.7414      1.209        118        512:
+     94/100         0G     0.7817     0.7464      1.215         96        512:
+     94/100         0G     0.7683     0.7174      1.213        117        512:
+     94/100         0G     0.7692     0.7058      1.212        118        512:
+     94/100         0G      0.765     0.7083      1.203        117        512:
+     94/100         0G     0.7688     0.7349      1.217        130        512:
+     94/100         0G     0.7767     0.7369      1.221         86        512:
+     94/100         0G     0.7815     0.7487      1.233        156        512:
+     94/100         0G     0.7966     0.7577      1.261         85        512:
+     94/100         0G     0.7917     0.7628      1.256         97        512:
+     94/100         0G     0.7948     0.7679      1.266         59        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.279      0.412      0.246      0.172
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     95/100         0G     0.7208      0.592      1.237        104        512:
+     95/100         0G     0.7877     0.6767      1.256        114        512:
+     95/100         0G     0.7865     0.7232      1.267        121        512:
+     95/100         0G     0.7766     0.7164      1.237         96        512:
+     95/100         0G     0.7679     0.7223      1.233         80        512:
+     95/100         0G     0.7748     0.7397      1.242        123        512:
+     95/100         0G     0.7746     0.7527      1.229        117        512:
+     95/100         0G     0.7718     0.7489      1.233        142        512:
+     95/100         0G     0.7715     0.7577      1.245        117        512:
+     95/100         0G     0.7681     0.7524      1.236         94        512:
+     95/100         0G     0.7716     0.7588      1.234        107        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.276      0.424       0.25      0.177
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     96/100         0G     0.7374     0.6468      1.156        101        512:
+     96/100         0G     0.7313     0.6544      1.149        119        512:
+     96/100         0G     0.7398     0.6474      1.157        126        512:
+     96/100         0G     0.7466     0.6481      1.156        106        512:
+     96/100         0G     0.7706      0.681      1.181        113        512:
+     96/100         0G     0.7623     0.6677      1.183        123        512:
+     96/100         0G     0.7627     0.6885      1.181         99        512:
+     96/100         0G     0.7719     0.7012      1.214         95        512:
+     96/100         0G     0.7735     0.6906      1.216        121        512:
+     96/100         0G     0.7723     0.6886      1.214        119        512:
+     96/100         0G     0.7717     0.6873      1.218        117        512:
+     96/100         0G     0.7681     0.6944      1.225        149        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.309      0.373      0.256      0.177
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     97/100         0G     0.8117     0.6759      1.242        125        512:
+     97/100         0G     0.7855      0.685      1.207        149        512:
+     97/100         0G      0.782     0.6906      1.235         88        512:
+     97/100         0G     0.7842     0.7351      1.247        157        512:
+     97/100         0G     0.7718     0.7491      1.245        123        512:
+     97/100         0G     0.7614      0.725      1.225         96        512:
+     97/100         0G     0.7731     0.7169      1.223         96        512:
+     97/100         0G     0.7699     0.7153      1.216         80        512:
+     97/100         0G     0.7806     0.7321      1.228        106        512:
+     97/100         0G     0.7748     0.7288      1.232        148        512:
+     97/100         0G      0.775     0.7397      1.231         90        512:
+     97/100         0G     0.7748     0.7312      1.222        121        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.277      0.445      0.261      0.182
+                 Class     Images  Instances      Box(P          R      mAP50  m
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     98/100         0G     0.7135     0.7115      1.194         90        512:
+     98/100         0G     0.7934     0.7395      1.201         89        512:
+     98/100         0G     0.8123     0.7171      1.241         83        512:
+     98/100         0G     0.8137     0.7478      1.245         82        512:
+     98/100         0G     0.8022     0.7373      1.238        156        512:
+     98/100         0G     0.8173     0.7509      1.249         94        512:
+     98/100         0G     0.8077     0.7432      1.239         82        512:
+     98/100         0G     0.8021     0.7391      1.239        145        512:
+     98/100         0G     0.7959     0.7322      1.237        150        512:
+     98/100         0G     0.7891     0.7236      1.232         88        512:
+     98/100         0G     0.7807      0.716      1.235        159        512:
+     98/100         0G     0.7822     0.7195      1.237        130        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.285      0.418      0.261      0.183
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+     99/100         0G     0.8058     0.7094      1.193         80        512:
+     99/100         0G      0.797     0.6748      1.157        129        512:
+     99/100         0G     0.7927     0.6844      1.172        145        512:
+     99/100         0G      0.792     0.7013      1.206        122        512:
+     99/100         0G     0.7855     0.6968        1.2        135        512:
+     99/100         0G     0.7975     0.7118      1.197         94        512:
+     99/100         0G     0.7844     0.7156      1.199        188        512:
+     99/100         0G     0.7767     0.7036      1.197        110        512:
+     99/100         0G     0.7679     0.6895      1.195         99        512:
+     99/100         0G     0.7714     0.6887      1.199         97        512:
+     99/100         0G     0.7721     0.6962      1.199         95        512:
+     99/100         0G      0.771      0.696      1.205        116        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.279      0.407      0.259      0.182
+  0%|          | 0/13 [00:00<?, ?it/s]tances      Box(P          R      mAP50  m
+    100/100         0G     0.7358     0.6953      1.186        136        512:
+    100/100         0G     0.7506     0.6912      1.191        136        512:
+    100/100         0G     0.7548     0.6961      1.192        139        512:
+    100/100         0G     0.7527     0.6924      1.192        128        512:
+    100/100         0G      0.755     0.6826      1.198         81        512:
+    100/100         0G      0.759     0.6811      1.198         88        512:
+    100/100         0G     0.7582     0.6843      1.206        130        512:
+    100/100         0G     0.7716     0.6932      1.208        104        512:
+    100/100         0G     0.7718     0.6967      1.216         83        512:
+    100/100         0G     0.7772     0.7165      1.228        131        512:
+    100/100         0G     0.7779     0.7237      1.221        113        512:
+    100/100         0G     0.7748     0.7186      1.217        100        512:
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400       0.27      0.445      0.261      0.183
+100 epochs completed in 1.139 hours.
+Optimizer stripped from runs/obb/train/weights/last.pt, 6.4MB
+                 Class     Images  Instances      Box(P          R      mAP50  m
+Optimizer stripped from runs/obb/train/weights/best.pt, 6.4MB
+Validating runs/obb/train/weights/best.pt...
+Ultralytics YOLOv8.1.9 🚀 Python-3.10.12 torch-2.2.0+cu121 CPU (AMD Ryzen 7 3700X 8-Core Processor)
+YOLOv8n-obb summary (fused): 187 layers, 3077999 parameters, 0 gradients, 8.3 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         50        400      0.286      0.401      0.295      0.199
+damagedcommercialbuilding         50         24     0.0647      0.167      0.105     0.0693
+damagedresidentialbuilding         50         75      0.311      0.427      0.301      0.181
+undamagedcommercialbuilding         50        117      0.335      0.447      0.314      0.219
+undamagedresidentialbuilding         50        184      0.435      0.565       0.46      0.328
+Speed: 2.3ms preprocess, 75.3ms inference, 0.0ms loss, 55.5ms postprocess per image
+Results saved to [1mruns/obb/train

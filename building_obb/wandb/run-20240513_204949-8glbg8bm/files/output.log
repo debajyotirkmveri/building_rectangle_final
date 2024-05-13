@@ -1,0 +1,13 @@
+
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mtrain: [39m[22mScanning /home/sysadm/Documents/Project/building_obb/Annotation_rectangle
+[34m[1mval: [39m[22mScanning /home/sysadm/Documents/Project/building_obb/Annotation_rectangle/Y
+Plotting labels to runs/detect/train5/labels.jpg...
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.00125, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+  0%|          | 0/12 [00:00<?, ?it/s]
+Image sizes 512 train, 512 val
+Using 0 dataloader workers
+Logging results to [1mruns/detect/train5
+Starting training for 50 epochs...

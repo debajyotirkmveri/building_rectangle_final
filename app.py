@@ -5,7 +5,7 @@ from PIL import Image
 from ultralytics import YOLO
 import cv2
 # Load the YOLO model
-model = YOLO('./runs/detect/train2/weights/best.pt')
+model = YOLO('./runs/detect/train6/weights/best.pt')
 
 ## Decoding according to the .yaml file class names order
 decoding_of_predictions = {0: 'undamagedcommercialbuilding', 

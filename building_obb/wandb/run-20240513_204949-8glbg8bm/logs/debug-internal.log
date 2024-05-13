@@ -1,0 +1,54 @@
+2024-05-13 20:49:49,863 INFO    StreamThr :109653 [internal.py:wandb_internal():86] W&B internal server running at pid: 109653, started at: 2024-05-13 20:49:49.861679
+2024-05-13 20:49:49,868 DEBUG   HandlerThread:109653 [handler.py:handle_request():146] handle_request: status
+2024-05-13 20:49:49,933 INFO    WriterThread:109653 [datastore.py:open_for_write():85] open: /home/sysadm/Documents/Project/building_obb/wandb/run-20240513_204949-8glbg8bm/run-8glbg8bm.wandb
+2024-05-13 20:49:49,933 DEBUG   SenderThread:109653 [sender.py:send():380] send: header
+2024-05-13 20:49:50,120 DEBUG   SenderThread:109653 [sender.py:send():380] send: run
+2024-05-13 20:49:51,144 INFO    SenderThread:109653 [dir_watcher.py:__init__():211] watching files in: /home/sysadm/Documents/Project/building_obb/wandb/run-20240513_204949-8glbg8bm/files
+2024-05-13 20:49:51,145 INFO    SenderThread:109653 [sender.py:_start_run_threads():1122] run started: 8glbg8bm with start time 1715613589.862398
+2024-05-13 20:49:51,160 DEBUG   HandlerThread:109653 [handler.py:handle_request():146] handle_request: check_version
+2024-05-13 20:49:51,162 DEBUG   SenderThread:109653 [sender.py:send_request():407] send_request: check_version
+2024-05-13 20:49:51,571 DEBUG   HandlerThread:109653 [handler.py:handle_request():146] handle_request: run_start
+2024-05-13 20:49:51,694 ERROR   HandlerThread:109653 [gpu.py:is_available():381] Error initializing NVML: RM has detected an NVML/RM version mismatch.
+2024-05-13 20:49:51,695 DEBUG   HandlerThread:109653 [system_info.py:__init__():32] System info init
+2024-05-13 20:49:51,696 DEBUG   HandlerThread:109653 [system_info.py:__init__():47] System info init done
+2024-05-13 20:49:51,696 INFO    HandlerThread:109653 [system_monitor.py:start():194] Starting system monitor
+2024-05-13 20:49:51,696 INFO    SystemMonitor:109653 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-13 20:49:51,696 INFO    HandlerThread:109653 [system_monitor.py:probe():214] Collecting system info
+2024-05-13 20:49:51,697 INFO    SystemMonitor:109653 [interfaces.py:start():190] Started cpu monitoring
+2024-05-13 20:49:51,697 INFO    SystemMonitor:109653 [interfaces.py:start():190] Started disk monitoring
+2024-05-13 20:49:51,698 INFO    SystemMonitor:109653 [interfaces.py:start():190] Started memory monitoring
+2024-05-13 20:49:51,699 INFO    SystemMonitor:109653 [interfaces.py:start():190] Started network monitoring
+2024-05-13 20:49:51,711 DEBUG   HandlerThread:109653 [system_info.py:probe():196] Probing system
+2024-05-13 20:49:51,713 DEBUG   HandlerThread:109653 [system_info.py:_probe_git():181] Probing git
+2024-05-13 20:49:51,744 DEBUG   HandlerThread:109653 [system_info.py:_probe_git():189] Probing git done
+2024-05-13 20:49:51,744 DEBUG   HandlerThread:109653 [system_info.py:probe():244] Probing system done
+2024-05-13 20:49:51,744 DEBUG   HandlerThread:109653 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-28-generic-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2024-05-13T15:19:51.711348', 'startedAt': '2024-05-13T15:19:49.845538', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'Phase-1 Benchmark Notebook 2024 V0.5-rectangle_test.ipynb', 'codePathLocal': 'Phase-1 Benchmark Notebook 2024 V0.5-rectangle_test.ipynb', 'root': '/home/sysadm/Documents/Project', 'git': {'remote': 'git@github.com:biditsadhukhan/od-challenge.git', 'commit': 'bdf6c2ba145adebd644d5cb6b72299cc32cf337f'}, 'email': 'sadhukhanbidit@gmail.com', 'host': 'arya23', 'username': 'sysadm', 'executable': '/usr/bin/python3', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2568.7129999999997, 'min': 2200.0, 'max': 3600.0}, 'cpu_freq_per_core': [{'current': 2312.826, 'min': 2200.0, 'max': 3600.0}, {'current': 2636.743, 'min': 2200.0, 'max': 3600.0}, {'current': 2195.392, 'min': 2200.0, 'max': 3600.0}, {'current': 2101.975, 'min': 2200.0, 'max': 3600.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3600.0}, {'current': 4241.813, 'min': 2200.0, 'max': 3600.0}, {'current': 4238.098, 'min': 2200.0, 'max': 3600.0}, {'current': 4064.945, 'min': 2200.0, 'max': 3600.0}, {'current': 2409.262, 'min': 2200.0, 'max': 3600.0}, {'current': 2091.136, 'min': 2200.0, 'max': 3600.0}, {'current': 3931.086, 'min': 2200.0, 'max': 3600.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3600.0}, {'current': 3451.475, 'min': 2200.0, 'max': 3600.0}, {'current': 4155.984, 'min': 2200.0, 'max': 3600.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3600.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3600.0}], 'disk': {'/': {'total': 54.700042724609375, 'used': 36.44499588012695}}, 'memory': {'total': 15.530052185058594}}
+2024-05-13 20:49:51,745 INFO    HandlerThread:109653 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-13 20:49:51,745 INFO    HandlerThread:109653 [system_monitor.py:probe():227] Publishing system info
+2024-05-13 20:49:51,745 DEBUG   HandlerThread:109653 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-05-13 20:49:51,745 DEBUG   HandlerThread:109653 [system_info.py:_save_pip():68] Saving pip packages done
+2024-05-13 20:49:51,786 INFO    HandlerThread:109653 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-13 20:49:51,858 DEBUG   SenderThread:109653 [sender.py:send():380] send: files
+2024-05-13 20:49:51,859 INFO    SenderThread:109653 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2024-05-13 20:49:51,872 DEBUG   HandlerThread:109653 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-13 20:49:51,873 DEBUG   SenderThread:109653 [sender.py:send_request():407] send_request: stop_status
+2024-05-13 20:49:51,880 DEBUG   HandlerThread:109653 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-13 20:49:52,145 INFO    Thread-12 :109653 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sysadm/Documents/Project/building_obb/wandb/run-20240513_204949-8glbg8bm/files/requirements.txt
+2024-05-13 20:49:52,145 INFO    Thread-12 :109653 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sysadm/Documents/Project/building_obb/wandb/run-20240513_204949-8glbg8bm/files/wandb-metadata.json
+2024-05-13 20:49:52,315 DEBUG   SenderThread:109653 [sender.py:send():380] send: telemetry
+2024-05-13 20:49:53,109 INFO    wandb-upload_0:109653 [upload_job.py:push():131] Uploaded file /tmp/tmpqzwtd8llwandb/3ie87cv9-wandb-metadata.json
+2024-05-13 20:49:53,145 INFO    Thread-12 :109653 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sysadm/Documents/Project/building_obb/wandb/run-20240513_204949-8glbg8bm/files/output.log
+2024-05-13 20:49:55,145 INFO    Thread-12 :109653 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sysadm/Documents/Project/building_obb/wandb/run-20240513_204949-8glbg8bm/files/output.log
+2024-05-13 20:49:55,319 DEBUG   HandlerThread:109653 [handler.py:handle_request():146] handle_request: status_report
+2024-05-13 20:49:59,147 INFO    Thread-12 :109653 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sysadm/Documents/Project/building_obb/wandb/run-20240513_204949-8glbg8bm/files/output.log
+2024-05-13 20:50:00,870 DEBUG   HandlerThread:109653 [handler.py:handle_request():146] handle_request: status_report
+2024-05-13 20:50:01,148 INFO    Thread-12 :109653 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sysadm/Documents/Project/building_obb/wandb/run-20240513_204949-8glbg8bm/files/output.log
+2024-05-13 20:50:03,149 INFO    Thread-12 :109653 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sysadm/Documents/Project/building_obb/wandb/run-20240513_204949-8glbg8bm/files/output.log
+2024-05-13 20:50:07,595 DEBUG   HandlerThread:109653 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-13 20:50:07,616 INFO    Thread-12 :109653 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sysadm/Documents/Project/building_obb/wandb/run-20240513_204949-8glbg8bm/files/output.log
+2024-05-13 20:50:07,652 DEBUG   HandlerThread:109653 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-13 20:50:07,653 DEBUG   SenderThread:109653 [sender.py:send_request():407] send_request: stop_status
+2024-05-13 20:50:07,653 DEBUG   HandlerThread:109653 [handler.py:handle_request():146] handle_request: status_report
+2024-05-13 20:50:08,617 INFO    Thread-12 :109653 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sysadm/Documents/Project/building_obb/wandb/run-20240513_204949-8glbg8bm/files/output.log
+2024-05-13 20:50:13,305 DEBUG   HandlerThread:109653 [handler.py:handle_request():146] handle_request: status_report
+2024-05-13 20:50:18,309 DEBUG   HandlerThread:109653 [handler.py:handle_request():146] handle_request: status_report

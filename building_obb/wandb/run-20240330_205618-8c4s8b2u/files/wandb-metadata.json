@@ -1,0 +1,122 @@
+{
+    "os": "Linux-6.5.0-26-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-03-30T15:26:19.692162",
+    "startedAt": "2024-03-30T15:26:18.567578",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "obb.ipynb",
+    "codePathLocal": "obb.ipynb",
+    "root": "/home/sysadm/Downloads/building_obb",
+    "host": "arya23",
+    "username": "sysadm",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2508.8176875,
+        "min": 2200.0,
+        "max": 3600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2032.49,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 3622.077,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2156.368,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2795.056,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1862.874,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2794.749,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 4316.05,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2489.28,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2462.1,
+            "min": 2200.0,
+            "max": 3600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 54.700042724609375,
+            "used": 32.37248611450195
+        }
+    },
+    "gpu": "NVIDIA GeForce GT 710",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GT 710",
+            "memory_total": 2098003968
+        }
+    ],
+    "memory": {
+        "total": 15.530048370361328
+    }
+}

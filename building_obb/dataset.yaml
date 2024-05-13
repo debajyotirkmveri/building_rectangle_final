@@ -1,0 +1,4 @@
+train: /home/sysadm/Documents/Project/building_obb/train/
+val: /home/sysadm/Documents/Project/building_obb/val/
+nc: 4
+names: ["damagedcommercialbuilding", "damagedresidentialbuilding", "undamagedcommercialbuilding", "undamagedresidentialbuilding"]

@@ -1,0 +1,99 @@
+
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mtrain: [39m[22mScanning /home/sysadm/Documents/Project/building_obb/Annotation_rectangle
+[34m[1mtrain: [39m[22mNew cache created: /home/sysadm/Documents/Project/building_obb/Annotation_rectangle/YOLODataset/labels/train.cache
+[34m[1mval: [39m[22mNew cache created: /home/sysadm/Documents/Project/building_obb/Annotation_rectangle/YOLODataset/labels/val.cache
+[34m[1mval: [39m[22mScanning /home/sysadm/Documents/Project/building_obb/Annotation_rectangle/Y
+Plotting labels to runs/detect/train3/labels.jpg...
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.00125, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 512 train, 512 val
+Using 0 dataloader workers
+Logging results to [1mruns/detect/train3
+Starting training for 50 epochs...
+  0%|          | 0/12 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+       1/50         0G      1.823       4.15      1.413         22        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         44        358   0.000533     0.0206   0.000422     0.0002
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+       2/50         0G      1.618      3.117      1.175         31        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         44        358     0.0114      0.364      0.111     0.0655
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+       3/50         0G      1.587      2.343       1.17          8        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         44        358     0.0173      0.614      0.164     0.0945
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+       4/50         0G      1.547      2.149      1.107         37        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         44        358      0.196      0.234      0.208      0.123
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+       5/50         0G      1.487      2.016      1.132         13        512: 1
+                 Class     Images  Instances      Box(P          R      mAP50  m
+                   all         44        358      0.459      0.315      0.227      0.139
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+       6/50         0G        1.5       1.98      1.116          6        512: 1

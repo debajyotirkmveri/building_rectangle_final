@@ -1,0 +1,119 @@
+{
+    "os": "Linux-6.5.0-28-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-05-13T15:04:11.565912",
+    "startedAt": "2024-05-13T15:04:09.966538",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "obb.ipynb",
+    "codePathLocal": "obb.ipynb",
+    "root": "/home/sysadm/Documents/Project",
+    "git": {
+        "remote": "git@github.com:biditsadhukhan/od-challenge.git",
+        "commit": "bdf6c2ba145adebd644d5cb6b72299cc32cf337f"
+    },
+    "email": "sadhukhanbidit@gmail.com",
+    "host": "arya23",
+    "username": "sysadm",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2282.1896875,
+        "min": 2200.0,
+        "max": 3600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2794.06,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2163.345,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2053.219,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 4093.382,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2793.735,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2794.086,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 4196.126,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2132.95,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2145.384,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 54.700042724609375,
+            "used": 36.44337463378906
+        }
+    },
+    "memory": {
+        "total": 15.530052185058594
+    }
+}
