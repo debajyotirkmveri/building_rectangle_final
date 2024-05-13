@@ -1,6 +1,6 @@
 ## Clone the repository
 ~~~
-git clone https://github.com/debajyotirkmveri/building_rectangle_final.git
+git clone https://github.com/debajyotirkmveri/building_rectangle_final_yolov8.git
 ~~~
 ## Go to the cloning folder
 ~~~
