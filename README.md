@@ -18,5 +18,8 @@ pip install -r requirements.txt
 ~~~
 streamlit run app.py
 ~~~
-## Click the Drags file and load the image from result folder
-![image](https://drive.google.com/drive/folders/1VvKyuU6xK41K15--6L9_raxr0XG9PB-z)
+## load the image from result folder
+![image](https://github.com/debajyotirkmveri/building_rectangle_final/blob/main/building_obb/result_show/Post_Event_9845.jpg)
+
+## The output of the app given 
+
