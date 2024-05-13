@@ -22,4 +22,4 @@ streamlit run app.py
 ![image](https://github.com/debajyotirkmveri/building_rectangle_final/blob/main/building_obb/result_show/Post_Event_9845.jpg)
 
 ## The output of the app given 
-
+![image](https://github.com/debajyotirkmveri/building_rectangle_final/blob/main/building_obb/sample.png)
