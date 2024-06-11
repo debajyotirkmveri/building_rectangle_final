@@ -18,10 +18,10 @@ decoding_of_predictions = {
 
 # Define colors for different classes
 class_colors = {
-    'udcb': (0, 0, 255),  # Blue
-    'udrb': (0, 255, 0),  # Green
-    'drb': (128, 128, 128),  # Grey
-    'dcb': (255, 0, 0)    # Red
+    'udcb': (255, 0, 0),    # Blue
+    'udrb': (0, 255, 0),    # Green
+    'drb': (0, 255, 255),   # Yellow
+    'dcb': (0, 0, 255)      # Red
 }
 
 def main():
@@ -66,6 +66,7 @@ def detect_objects(image):
             # Determine text color based on box color
             text_color = (0, 0, 0) if sum(box_color) > 382.5 else (255, 255, 255)
             
+            # Draw text with class name and confidence
             cv2.putText(img_cv, f'{cls} {conf:.2f}', (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, text_color, 2)
 
     # Convert the OpenCV image back to PIL format
