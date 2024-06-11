@@ -14,10 +14,10 @@ decoding_of_predictions = {0: 'undamagedcommercialbuilding',
                            3: 'damagedcommercialbuilding'}
 
 # Define colors for different classes
-class_colors = {'undamagedcommercialbuilding': (0, 255, 0),  # Green
-                'undamagedresidentialbuilding': (255, 0, 0),  # Red
-                'damagedresidentialbuilding': (0, 0, 255),  # Blue
-                'damagedcommercialbuilding': (128, 128, 128)}  # Grey
+class_colors = {'undamagedcommercialbuilding': (0, 0, 255),  # Blue
+                'undamagedresidentialbuilding': (0, 255, 0),  # Green
+                'damagedresidentialbuilding': (128, 128, 128),  # Grey
+                'damagedcommercialbuilding': (255, 0, 0)}  # red
 
 def main():
     st.title("Object Detection with YOLOv8")
