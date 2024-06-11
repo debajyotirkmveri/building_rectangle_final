@@ -4,25 +4,30 @@ import numpy as np
 from PIL import Image
 from ultralytics import YOLO
 import cv2
+
 # Load the YOLO model
 model = YOLO('./runs/detect/train6/weights/best.pt')
 
 ## Decoding according to the .yaml file class names order
-decoding_of_predictions = {0: 'undamagedcommercialbuilding', 
-                           1: 'undamagedresidentialbuilding',
-                           2: 'damagedresidentialbuilding',
-                           3: 'damagedcommercialbuilding'}
+decoding_of_predictions = {
+    0: 'udcb',  # undamagedcommercialbuilding
+    1: 'udrb',  # undamagedresidentialbuilding
+    2: 'drb',   # damagedresidentialbuilding
+    3: 'dcb'    # damagedcommercialbuilding
+}
 
 # Define colors for different classes
-class_colors = {'undamagedcommercialbuilding': (0, 0, 255),  # Blue
-                'undamagedresidentialbuilding': (0, 255, 0),  # Green
-                'damagedresidentialbuilding': (128, 128, 128),  # Grey
-                'damagedcommercialbuilding': (255, 0, 0)}  # red
+class_colors = {
+    'udcb': (255, 0, 0),    # Blue
+    'udrb': (0, 255, 0),    # Green
+    'drb': (0, 255, 255),   # Yellow
+    'dcb': (0, 0, 255)      # Red
+}
 
 def main():
     st.title("Object Detection with YOLOv8")
-    st.markdown("<style> p{margin: 10px auto; text-align: justify; font-size:20px;}</style>", unsafe_allow_html=True)      
-    st.markdown("<p>🚀Welcome to the introduction page of our project! In this project, we will be exploring the YOLO (You Only Look Once) algorithm. YOLO is known for its ability to detect objects in an image in a single pass, making it a highly efficient and accurate object detection algorithm.🎯</p>", unsafe_allow_html=True)  
+    st.markdown("<style> p{margin: 10px auto; text-align: justify; font-size:20px;}</style>", unsafe_allow_html=True)
+    st.markdown("<p>🚀Welcome to the introduction page of our project! In this project, we will be exploring the YOLO (You Only Look Once) algorithm. YOLO is known for its ability to detect objects in an image in a single pass, making it a highly efficient and accurate object detection algorithm.🎯</p>", unsafe_allow_html=True)
     st.markdown("<p>The latest version of YOLO, YOLOv8, released in January 2023 by Ultralytics, has introduced several modifications that have further improved its performance. 🌟</p>", unsafe_allow_html=True)
 
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
@@ -41,15 +46,12 @@ def detect_objects(image):
     img_cv = cv2.cvtColor(np.array(image_resized), cv2.COLOR_RGB2BGR)
 
     # Perform object detection
-    results = model.predict(img_cv, save=True, iou=0.5, save_txt=True, conf=0.25,line_thickness = 1)
+    results = model.predict(img_cv, save=True, iou=0.5, save_txt=True, conf=0.25, line_thickness=1)
 
     for r in results:
         conf_list = r.boxes.conf.numpy().tolist()
         clss_list = r.boxes.cls.numpy().tolist()
-        original_list = clss_list
-        updated_list = []
-        for element in original_list:
-            updated_list.append(decoding_of_predictions[int(element)])
+        updated_list = [decoding_of_predictions[int(element)] for element in clss_list]
 
         bounding_boxes = r.boxes.xyxy.numpy()
         confidences = conf_list
@@ -64,6 +66,7 @@ def detect_objects(image):
             # Determine text color based on box color
             text_color = (0, 0, 0) if sum(box_color) > 382.5 else (255, 255, 255)
             
+            # Draw text with class name and confidence
             cv2.putText(img_cv, f'{cls} {conf:.2f}', (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, text_color, 2)
 
     # Convert the OpenCV image back to PIL format
@@ -73,4 +76,3 @@ def detect_objects(image):
 
 if __name__ == "__main__":
     main()
-
